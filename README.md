@@ -36,16 +36,13 @@
 <img align="left" width="400" src="https://streak-stats.demolab.com/?user=knoci" />
 </p>
 <!-- Latest Blog Posts (Auto-updated by workflow) -->
-<h2 align="center">📕 Latest Blog Posts</h3>
-<div align="right">
-<!-- BLOG-POST-LIST:START -->
-- [badgerDB的arena内存池与skiplist跳表的源码解读](https://knoci.cn/article/badger/179/)
-- [布隆过滤器文章分享](https://knoci.cn/article/bloom-filters/175/)
-- [Go实现简单的分布式缓存](https://knoci.cn/article/cache/159/)
-- [Go实现简单的RPC框架项目](https://knoci.cn/article/rpc/149/)
-- [跳表及其简单实现](https://knoci.cn/article/skiplist/138/)
-<!-- BLOG-POST-LIST:END -->
-</div>
+<h3>📕 Latest Blog Posts</h3>
+<ul>
+  <li><a href="https://knoci.cn/article/badger/179/">badgerDB的arena内存池与skiplist跳表的源码解读</a></li>
+  <li><a href="https://knoci.cn/article/cache/159/">Go实现简单的分布式缓存</a></li>
+  <li><a href="https://knoci.cn/article/rpc/149/">Go实现简单的RPC框架项目</a></li>
+  <li><a href="https://knoci.cn/article/skiplist/138/">跳表及其简单实现</a></li>
+</ul>
 <p align="center">
 <img src="https://github-profile-trophy.vercel.app/?username=knoci" />
 </p>
