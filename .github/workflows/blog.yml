@@ -19,3 +19,13 @@ jobs:
           feed_list: "https://knoci.cn/feed/" # Replace with your actual blog RSS feed URL
           max_post_count: 5
           readme_path: README.md
+          comment_list_name: "BLOG-POST-LIST"
+          list_style: "unordered" # 使用无序列表
+          post_template: |
+            <li>
+              <a href="$url" target="_blank" rel="noopener noreferrer">
+                <b>$title</b>
+              </a>
+              <br/>
+              <small>📅 $publishedDate</small>
+            </li>
