@@ -22,7 +22,7 @@
 <p align="center">
 <!-- https://github.com/DenverCoder1/github-readme-streak-stats -->
 <img align="center" width="400" src="/github-metrics.svg" />
-<img align="center" width="500" src="https://github-readme-stats.vercel.app/api?username=knoci&hide_title=true&hide_border=true&show_icons=true&theme=solarized-light" />
+<img align="center" width="450" src="https://github-readme-stats.vercel.app/api?username=knoci&hide_title=true&hide_border=true&show_icons=true&theme=solarized-light" />
 <br/>
 <!-- https://github.com/Ashutosh00710/github-readme-activity-graph -->
 <img width="800" src="https://github-readme-activity-graph.vercel.app/graph?username=knoci&theme=github-compact&hide_border=true&area=true">
