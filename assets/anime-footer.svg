@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" width="1200" height="120" role="img" aria-label="Fresh Anime Footer Wave">
+  <defs>
+    <linearGradient id="waveGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7DD3FC" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#E0C3FC" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#FBCFE8" stop-opacity="0.65"/>
+    </linearGradient>
+    <linearGradient id="waveGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.88"/>
+      <stop offset="55%" stop-color="#A5B4FC" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#F9A8D4" stop-opacity="0.9"/>
+    </linearGradient>
+    <clipPath id="footerClip">
+      <rect x="0" y="0" width="1200" height="120" rx="16" ry="16"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    .footer-text {
+      font-family: 'Segoe UI', 'PingFang SC', 'Hiragino Sans', system-ui, sans-serif;
+      font-weight: 600;
+      font-size: 16px;
+      fill: #FFFFFF;
+      letter-spacing: 1.5px;
+    }
+    @keyframes waveShift {
+      0%, 100% { transform: translateX(0px); }
+      50% { transform: translateX(-28px); }
+    }
+    .w1 { animation: waveShift 10s ease-in-out infinite; }
+  </style>
+
+  <g clip-path="url(#footerClip)">
+    <g class="w1">
+      <path d="M-40,56 Q160,14 360,52 T760,48 T1160,54 T1300,40 L1300,130 L-40,130 Z" fill="url(#waveGrad1)"/>
+    </g>
+    <path d="M0,64 Q220,24 460,60 T940,54 T1200,62 L1200,120 L0,120 Z" fill="url(#waveGrad2)"/>
+    <text x="600" y="92" text-anchor="middle" class="footer-text">✦  Thanks for visiting · May your code be bug-free  ✦</text>
+  </g>
+</svg>
